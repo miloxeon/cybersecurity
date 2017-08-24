@@ -194,6 +194,10 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  line-height: 1.7;
+  @include mobile {
+    line-height: 1.4;
+  }
 }
 
 .site-description {
